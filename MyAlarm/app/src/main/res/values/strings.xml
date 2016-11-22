@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MyAlarm</string>
+    <string name="buttonAdd">Add new Notification</string>
+    <string name="buttonDel">Delete Notification</string>
 </resources>

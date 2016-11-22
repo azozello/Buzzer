@@ -10,8 +10,39 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="panov.denis.myalarm.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:text="Title"
+            android:id="@+id/editNoteTitle" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:text="Text"
+            android:id="@+id/editNoteText" />
+
+        <Button
+            android:text="@string/buttonAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonAdd" />
+
+        <Button
+            android:text="@string/buttonDel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonDelete" />
+
+    </LinearLayout>
+
 </RelativeLayout>
